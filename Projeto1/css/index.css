@@ -1,0 +1,230 @@
+:root {
+    --cor-azul: #1a2730;
+    --cor-cinza: #424149;
+    --cor-preto: #000;
+    --cor-branco: #fff;
+    --cor-azulCinza: #46586c;
+    --cor-azulClaro: #afcee2;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
+/* Menu */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: var(--cor-azulCinza);
+    box-shadow: 0px 3px 10px var(--cor-azul);
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 6rem;
+}
+
+.nav-bar,
+.mobile-menu {
+    width: 100%;/
+}
+
+.logo {
+    display: flex;
+    text-align: center;
+}
+
+.logo img {
+    width: 64px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-left: 40px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: var(--cor-branco);
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-left: 40px;
+}
+
+.nav-link:hover {
+    color: var(--cor-azulClaro);
+}
+
+.login-button {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 20px;
+    margin-top: 10px;
+}
+
+.login-button button {
+    border: none;
+    background-color: var(--cor-branco);
+    padding: 8px 20px;
+    border-radius: 5px;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-left: 40px;
+}
+
+.login-button button a {
+    text-decoration: none;
+    color: var(--cor-azulClaro);
+    font-weight: 600;
+    padding: 8px 20px;
+}
+
+.login-button button:hover {
+    background-color: var(--cor-azulClaro);
+    color: var(--cor-branco);
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+/* SESSÃO */
+.sessao {
+    padding: 8rem;
+    background-color: var(--cor-azulClaro);
+    color: var(--cor-azulCinza);
+}
+
+.sessao a {
+    margin-top: 60px;
+    font-size: 2rem;
+    margin-bottom: 45px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.conteiner {
+    margin-top: 20px;
+    border-radius: 2.5%;
+    padding: 1rem 2rem;
+    background-color: var(--cor-azulClaro);
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+ul li {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.navLink {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    background-color: var(--cor-azulCinza);
+    border-radius: 5px;
+    color: var(--cor-azulClaro);
+    transition: background-color 0.3s;
+}
+
+/*  FOOTER */
+
+.contato {
+    background-color: var(--cor-branco);
+    padding: 80px 0;
+}
+
+.txt-contato,
+.icons-contato {
+    display: inline-block;
+    width: 50%;
+    margin-right: -4px;
+    vertical-align: middle;
+}
+
+.contato .txt-contato h3 {
+    font-size: 2.5em;
+    line-height: 50px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    margin-left: 80px;
+}
+
+.contato .txt-contato h3 span {
+    display: block;
+    font-weight: 700;
+}
+
+.contato .icons-contato a {
+    text-decoration: none;
+}
+
+.contato .icons-contato button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+    width: 60%;
+    height: 60px;
+    margin: 0 auto 20px auto;
+    background-color: transparent;
+    background-color: var(--cor-azulClaro);
+    cursor: pointer;
+    transition: .5s;
+}
+
+.contato .icons-contato button i {
+    font-size: 20px;
+}
+
+.contato .icons-contato button:hover {
+    background-color: var(--cor-azulCinza);
+}
+
+.contato .icons-contato button:hover i,
+.contato .icons-contato button:hover p {
+    color: var(--cor-azulClaro);
+}
+
+.txtContato {
+    font-size: 12px;
+    color: var(--cor-preto);
+    margin-top: 50px;
+    text-align: center;
+}
