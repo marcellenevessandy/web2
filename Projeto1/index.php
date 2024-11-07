@@ -23,6 +23,7 @@
                     <ul>
                         <li class="nav-item"><a href="#exer" class="nav-link">Exercícios</a></li>
                         <li class="nav-item"><a href="#form" class="nav-link">Formulários</a></li>
+                        <li class="nav-item"><a href="#aula" class="nav-link">Aula</a></li>
                     </ul>
                 </div>
 
@@ -58,6 +59,24 @@
                         <li class="form-item">
                             <a href="./forms/formexer1.php" class="navLink" title="Acessar Formulário 1">Formulário 1</a>
                         </li>
+                        <li class="form-item">
+                            <a href="./forms/feedback.php" class="navLink" title="Acessar Formulário 2">Formulário 2</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        
+        <section id="aula" class="sessao">
+            <div class="container">
+                <div class="sessaoFormulario">
+                    <h1>Aulas</h1>
+                    <ul class="form-lista">
+                        <li class="form-item">
+                            <a href="./aula/index.php" class="navLink" title="Acessar exercício 1">Exercício 1</a>
+                        </li>
+                       
                     </ul>
                 </div>
             </div>
