@@ -44,7 +44,7 @@
                     <h1>Exercícios</h1>
                     <ul class="exercicio-lista">
                         <li class="exercicio-item">
-                            <a href="./exer1.php" class="navLink" title="Acessar Exercício 1">Exercício 1</a>
+                            <a href="./exers/exer1.php" class="navLink" title="Acessar Exercício 1">Exercício 1</a>
                         </li>
                     </ul>
                 </div>
@@ -57,10 +57,13 @@
                     <h1>Formulários</h1>
                     <ul class="form-lista">
                         <li class="form-item">
-                            <a href="./forms/formexer1.php" class="navLink" title="Acessar Formulário 1">Formulário 1</a>
+                            <a href="./forms/formexer1.php" class="navLink" title="Acessar Formulário 1">Calculadora IMC</a>
                         </li>
                         <li class="form-item">
-                            <a href="./forms/feedback.php" class="navLink" title="Acessar Formulário 2">Formulário 2</a>
+                            <a href="./forms/feedback.php" class="navLink" title="Acessar Formulário 2">Feedback</a>
+                        </li>
+                        <li class="form-item">
+                            <a href="./forms/rifa.php" class="navLink" title="Gerador de Rifa">Gerador de Rifa</a>
                         </li>
                     </ul>
                 </div>
@@ -74,7 +77,7 @@
                     <h1>Aulas</h1>
                     <ul class="form-lista">
                         <li class="form-item">
-                            <a href="./aula/index.php" class="navLink" title="Acessar exercício 1">Exercício 1</a>
+                            <a href="./aula/exemplo1/index.php" class="navLink" title="Acessar exercício 1">Exercício 1</a>
                         </li>
                        
                     </ul>

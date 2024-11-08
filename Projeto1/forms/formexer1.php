@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <form method="post" action="./script/formeexerScript.php">
+    <form method="post" action="./script/formeexer1Script.php">
         <h2>Consultório da Dra. Aline</h2>
 
         <label for="nascimento">Digite seu nome:</label>
@@ -20,10 +20,10 @@
         <input type="date" name="anoNascimento" id="anoNascimento" require><br>
 
         <label for="peso">Digite seu peso:</label>
-        <input type="number" step="0.1" name="peso" id="peso" require><br>
+        <input type="number" step="0.01" name="peso" id="peso" require><br>
 
         <label for="altura">Digite sua altura:</label>
-        <input type="number" step="0.1" name="altura" id="altura" require><br>
+        <input type="number" step="0.01" name="altura" id="altura" require><br>
 
         <label>Gênero:</label>
         <input type="radio" id="masculino" name="genero" value="masculino">
@@ -32,8 +32,8 @@
         <input type="radio" id="feminino" name="genero" value="feminino">
         <label for="feminino">Feminino</label><br>
 
-        <input type="submit" name="salvar" value="salvar" id="salvar">
-        <input type="reset" name="limpar" value="limpar" id="limpar">
+        <input type="submit" name="salvar" value="Salvar" id="salvar">
+        <input type="reset" name="limpar" value="Limpar" id="limpar">
 
     </form>
 

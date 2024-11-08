@@ -1,12 +1,11 @@
 /* Reseta algumas propriedades padrões do navegador */
 :root {
-    --cor-azul:#1a2730;
+    --cor-azul: #1a2730;
     --cor-cinza: #424149;
     --cor-preto: #000;
     --cor-branco: #fff;
     --cor-azulCinza: #46586c;
     --cor-azulClaro: #afcee2;
-
 }
 
 * {
@@ -30,7 +29,7 @@ body {
 h2 {
     text-align: center;
     margin-bottom: 20px;
-    color:  var(--cor-preto);;
+    color: var(--cor-preto);
 }
 
 /* Estilos do formulário */
@@ -38,7 +37,7 @@ form {
     background-color: var(--cor-azulClaro);
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px  var(--cor-preto);;
+    box-shadow: 0 4px 8px var(--cor-preto);
     width: 100%;
     max-width: 400px;
     color: var(--cor-preto);
@@ -49,12 +48,13 @@ label {
     font-size: 14px;
     margin-bottom: 8px;
     display: block;
-    color:  var(--cor-preto);;
+    color: var(--cor-preto);
 }
 
 input[type="text"],
 input[type="date"],
-input[type="number"] {
+input[type="number"],
+textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
@@ -66,44 +66,27 @@ input[type="number"] {
 
 input[type="text"]:focus,
 input[type="date"]:focus,
-input[type="number"]:focus {
-    border-color:  var(--cor-cinza);
+input[type="number"]:focus,
+textarea:focus {
+    border-color: var(--cor-cinza);
     outline: none;
 }
 
 /* Estilo para os botões */
-input[type="submit"],
-input[type="reset"] {
-    width: 48%;
+input[type="submit"] {
+    width: 100%;
     padding: 10px;
     border: none;
     border-radius: 5px;
     font-size: 14px;
     cursor: pointer;
     transition: background-color 0.3s;
-}
-
-input[type="submit"] {
-    background-color:  var(--cor-azulCinza);
+    background-color: var(--cor-azulCinza);
     color: var(--cor-branco);
 }
 
 input[type="submit"]:hover {
     background-color: #45a049;
-}
-
-input[type="reset"] {
-    background-color: var(--cor-azulCinza);
-    color: var(--cor-branco);
-}
-
-input[type="reset"]:hover {
-    background-color: #e53935;
-}
-
-/* Estilo para os radio buttons */
-input[type="radio"] {
-    margin-right: 8px;
 }
 
 /* Estilo de espaçamento entre os campos */

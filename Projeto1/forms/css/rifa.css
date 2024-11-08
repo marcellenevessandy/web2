@@ -72,8 +72,7 @@ input[type="number"]:focus {
 }
 
 /* Estilo para os botões */
-input[type="submit"],
-input[type="reset"] {
+input[type="submit"] {
     width: 48%;
     padding: 10px;
     border: none;
@@ -90,20 +89,6 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: #45a049;
-}
-
-input[type="reset"] {
-    background-color: var(--cor-azulCinza);
-    color: var(--cor-branco);
-}
-
-input[type="reset"]:hover {
-    background-color: #e53935;
-}
-
-/* Estilo para os radio buttons */
-input[type="radio"] {
-    margin-right: 8px;
 }
 
 /* Estilo de espaçamento entre os campos */
