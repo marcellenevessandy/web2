@@ -9,6 +9,7 @@
 </head>
 
 <body>
+    
 
     <form method="post" action="./script/rifaScript.php">
         <h2>Gerador de Rifa</h2>

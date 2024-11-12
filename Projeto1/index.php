@@ -24,6 +24,7 @@
                         <li class="nav-item"><a href="#exer" class="nav-link">Exercícios</a></li>
                         <li class="nav-item"><a href="#form" class="nav-link">Formulários</a></li>
                         <li class="nav-item"><a href="#aula" class="nav-link">Aula</a></li>
+                        <li class="nav-item"><a href="#crud" class="nav-link">CRUD</a></li>
                     </ul>
                 </div>
 
@@ -78,6 +79,20 @@
                     <ul class="form-lista">
                         <li class="form-item">
                             <a href="./aula/exemplo1/index.php" class="navLink" title="Acessar exercício 1">Exercício 1</a>
+                        </li>
+                       
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="crud" class="sessao">
+            <div class="container">
+                <div class="sessaoFormulario">
+                    <h1>CRUD</h1>
+                    <ul class="form-lista">
+                        <li class="form-item">
+                            <a href="./crud/crud1/cadastro.php" class="navLink" title="Acessar CRUD 1">CRUD 1</a>
                         </li>
                        
                     </ul>
